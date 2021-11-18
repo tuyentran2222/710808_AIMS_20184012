@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="34.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/logo_xanh.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="100.0" layoutY="45.0" prefHeight="35.0" prefWidth="241.0" text="SHIPPING_TUYENTV" textFill="#15a9df">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="163.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="242.0" text="Phone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="310.0" text="Province/City">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="408.0" text="Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="543.0" text="Shipping instruction">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="431.0" layoutY="156.0" prefHeight="35.0" prefWidth="726.0" />
+      <TextField layoutX="431.0" layoutY="235.0" prefHeight="35.0" prefWidth="726.0" />
+      <TextArea layoutX="431.0" layoutY="372.0" prefHeight="93.0" prefWidth="720.0" />
+      <TextArea layoutX="431.0" layoutY="502.0" prefHeight="122.0" prefWidth="720.0" />
+      <ChoiceBox layoutX="431.0" layoutY="298.0" prefHeight="35.0" prefWidth="199.0" />
+   </children>
+</Pane>
